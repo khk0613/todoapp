@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Laravel Quickstart - Basic</title>
+        <title>Todo-app</title>
 
         <!-- CSS And JavaScript -->
     </head>
 
     <body>
-        <div class="container">
-            <nav class="navbar navbar-default">
-                <!-- Navbar Contents -->
-            </nav>
-        </div>
-
+      <div class="content">
         @yield('content')
+      </div>
     </body>
 </html>
